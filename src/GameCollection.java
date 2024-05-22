@@ -1,11 +1,12 @@
 import java.util.ArrayList;
+
 public class GameCollection
 {
     private ArrayList<Game> games;
 
     public GameCollection()
     {
-        games = new ArrayList<Game>();
+        this.games = new ArrayList<>();
     }
 
     public void addGame (Game g)
@@ -26,6 +27,5 @@ public class GameCollection
         int count = this.games.size();
 
         return count;
-
     }
 }

@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class InputReader
 {
     private Scanner scanner;
@@ -10,9 +11,9 @@ public class InputReader
 
     public String getInput()
     {
-        return this.scanner.nextLine();
+        String input = scanner.nextLine();
+
+        return input;
+
     }
-
-
-
 }

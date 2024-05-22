@@ -5,14 +5,4 @@ public enum Genre
     ADVENTURE,
     RPG,
     STRATEGY
-
-
-
-
-
-
-
-
-
-
 }
