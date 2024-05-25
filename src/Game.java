@@ -31,7 +31,7 @@ public class Game
 
     public void showInfo()
     {
-        String gameInfo = this.getTitle() + ", " + this.getGenre() + " -running time: " + this.getReleaseYear() + " Year ";
+        String gameInfo = this.getTitle() + ", " + this.getGenre() + ", " + this.getReleaseYear() + " Year ";
 
         System.out.println(gameInfo);
     }

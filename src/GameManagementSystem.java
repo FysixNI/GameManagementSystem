@@ -51,6 +51,8 @@ public class GameManagementSystem
         String userInput = reader.getInput();
         int releaseYear = 0;
 
+        System.out.println("Please enter the genre of the game: ");
+
         try
         {
             releaseYear = Integer.parseInt(userInput);
